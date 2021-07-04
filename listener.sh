@@ -10,7 +10,6 @@ while true; do
     if (($SIZE > 2)); then
       echo "catalina.out size exceed"
       cd /home/shree/server/apache-tomcat-9.0.48/logs
-      echo $(pwd)
       rm catalina.out
       cd /home/shree/server/apache-tomcat-9.0.48/bin
       ./shutdown.sh
