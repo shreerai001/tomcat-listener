@@ -24,7 +24,6 @@ while true; do
     cd /home/shree/server/apache-tomcat-9.0.48/logs
     FILENAME = 'catalina.out'
     SIZE = $(du -sb $FILENAME | awk '{ print $0}')
-
     if (($SIZE > 2147483648)); then
       echo "catalina.out size exceed"
       rm catalina.out
