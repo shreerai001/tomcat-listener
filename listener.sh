@@ -30,6 +30,12 @@ while true; do
       ./shutdown.sh
       sleep 60
       ./startup.sh
+      curl --ssl-reqd \                                                       ok  base py  12:39:57 पूर्वाह्न
+      --url 'smtps://smtp.gmail.com:465' \
+      --user 'user@gmail.com:userpassword' \
+      --mail-from 'user@gmail.com' \
+      --mail-rcpt 'recpeintuser@gmail.com' \
+      --upload-file mail.txt
       cd /home/shree/lab/bash
       return
     fi
