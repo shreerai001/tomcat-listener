@@ -35,7 +35,7 @@ while true; do
         --url 'smtps://smtp.gmail.com:465' \
         --user 'email@gmail.com:password' \
         --mail-from 'email@gmail.com' \
-        --mail-rcpt 'shreeraione@gmail.com' \
+        --mail-rcpt 'email@email.com' \
         --upload-file mail.txt
       cd /home/shree/lab/bash/tomcatListener
       return
@@ -45,7 +45,7 @@ while true; do
     cd /home/shree/lab/bash/tomcatListener
     curl --ssl-reqd \
       --url 'smtps://smtp.gmail.com:465' \
-      --user 'email@gmail.com:Linux_ubuntu1' \
+      --user 'email@gmail.com:pw' \
       --mail-from 'rcemail@gmail.com' \
       --mail-rcpt 'rcemail@gmail.com' \
       --upload-file mail.txt
